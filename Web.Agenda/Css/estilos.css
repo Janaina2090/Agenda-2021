@@ -1,0 +1,190 @@
+﻿* {
+margin:0px;
+}
+body {
+ padding:0px;
+ margin:0px;
+ background-color:#f3e0e0;
+ font-family:'Century Gothic', Tahoma, Arial;
+}
+#pagina
+{
+ width:700px;
+ max-width:80%;
+ margin: 20px auto;
+}
+#cabecalho {
+ background-color:#fff;
+ border-radius:10px;
+}
+#cabecalho h1 {
+ color:#2e5069;
+ padding:10px;
+text-align:center;
+
+}
+#conteudo {
+    background-color: #fff;
+    min-height: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 100px;
+    text-align: center;
+}
+.gridView {
+ margin-bottom:20px;
+ font-size:90%;
+ width:100%;
+ }
+ .gridView tr:hover {
+ background-color:#dde6f3;
+ }
+.gridView td {
+ padding:5px;
+ border-color:#ccc;
+ }
+
+    .gridView td a {
+        text-decoration: none;
+    }
+
+    .gridView th {
+        padding: 5px;
+        border-color: #ccc;
+        color: #272944;
+    }
+
+.colConcluidaItem {
+    text-align: center;
+    width: 3%;
+}
+
+.colConcluidaHeader {
+    width: 3%;
+}
+
+.colPrioridadeItem {
+    text-align: center;
+    width: 3%;
+}
+
+.colPrioridadeHeader {
+    text-align: center;
+    width: 3%;
+}
+
+.colTarefaItem {
+    text-align: left;
+}
+
+.colTarefaHeader {
+    text-align: left;
+}
+
+#rodape {
+    font-size: 80%;
+    position: fixed;
+    bottom: 0px;
+    color: #ceeaff;
+    width: 700px;
+    border-top: 1px solid #ceeaff;
+    opacity: 0.5;
+}
+
+#rodape p {
+        padding: 10px 0px 10px 0px;
+        text-align: left;
+}
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+    fieldset legend {
+        padding: 5px;
+    }
+
+    fieldset .legenda, .fieldset .campo {
+        display: block;
+    }
+
+    fieldset .legenda {
+        cursor: pointer;
+    }
+
+    fieldset .campo {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    fieldset .obs {
+        min-height: 200px;
+    }
+
+.larguraMax80 {
+    max-width: 80px;
+}
+
+@media (max-width:400px) {
+    #pagina {
+        width: inherit;
+        max-width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+        border: none;
+    }
+
+    #cabecalho {
+        border-radius: 0px;
+        margin: 0px;
+    }
+
+    #conteudo {
+        border-radius: 0px;
+        margin-top: 0px;
+        min-height: 100px;
+    }
+
+    #rodape {
+        display: none;
+    }
+
+    .colConcluidaItem {
+        display: none;
+    }
+
+    display:none;
+}
+
+.colPrioridadeItem {
+    display: none;
+}
+
+.colPrioridadeHeader {
+    display: none;
+}
+
+}
+
+@media (max-height:550px) {
+    #rodape {
+        display: none;
+    }
+}
+
+.mensagemErro {
+    font-size: 110%;
+    font-weight: bold;
+    display: block;
+    Color: red;
+}
+
+.mensagemOK {
+    font-size: 110%;
+    font-weight: bold;
+    display: block;
+    Color: #dde6f3;
+}

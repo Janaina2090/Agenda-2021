@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Tarefas";
+}
+<link href="~/Css/estilos.css" rel="stylesheet" />
+<div id="pagina">
+    <div id="cabecalho">
+      <h1>Tarefas</h1>
+    </div>
+
+    <div id="conteudo">
+        @Html.ActionLink("Nova Tarefa", "NovaTarefa", "Home", new { @class = "btn btn-primary" }) ||
+        @Html.ActionLink("Lista de Tarefas", "ListarTodasTarefas","Home" , new {@class= "btn btn-primary" })
+    </div>
+
+    <div id="rodope">
+       
+    </div>
+</div>

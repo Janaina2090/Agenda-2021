@@ -23,7 +23,7 @@ namespace Web.Agenda
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootswatch/journal/bootstrap.css",
                       "~/Content/site.css"));
         }
     }
